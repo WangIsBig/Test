@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 外层透明背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- 中间有颜色的矩形，大小为按钮的一半 -->
+    <item
+        android:left="0.25dp"
+        android:right="0.25dp"
+        android:top="0.25dp"
+        android:bottom="0.25dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9E9E9E" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
